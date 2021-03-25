@@ -160,6 +160,14 @@ Send email containing information for paying back the settled amount of payment 
 
 Most simple way to test the payment module is to switch the Sandbox / Testing mode on. In the sandbox mode after confirming the order, the user is directed to a test page where you can see all the passed information and locate possible errors. In the sandbox page you can also test ok-, error-, cancel- and delayed payment -responses that Svea Payments service might send to your service.
 
+# Test credentials 
+```
+Sellerid: testikauppias
+Secret key: 11223344556677889900
+Secret key generation: 1
+Communication url: https://test1.maksuturva.fi/
+```
+
 # Testing with a separate test account
 
 For testing the module with actual internet bank, credit card, invoice or part payment services, you can order a test account for yourself.
